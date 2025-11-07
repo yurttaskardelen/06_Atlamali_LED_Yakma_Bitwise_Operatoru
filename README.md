@@ -65,3 +65,13 @@ LED'lerin anot (uzun) bacakları STM32 pinlerine, katot (kısa) bacakları ise d
 Bu "Bitwise" versiyonunda, `HAL_GPIO_WritePin` fonksiyonuna birden fazla pin göndermek için `|` (Bitwise OR) operatörü kullanılır. Bu sayede 4 satır `WritePin` komutu yerine 1 satır kullanılır.
 
 <img width="1052" height="701" alt="06" src="https://github.com/user-attachments/assets/dbbd1452-a99a-4bb6-afaa-e03a28db74d9" />
+
+---
+
+### 🚀 Nasıl Kullanılır?
+
+1.  Bu depoyu klonlayın (`git clone ...`).
+2.  STM32CubeIDE yazılımını açın.
+3.  `File > Open Projects from File System...` seçeneği ile proje klasörünü seçin.
+4.  Proje içindeki `.ioc` dosyasını açarak pin yapılandırmasını inceleyebilirsiniz.
+5.  Derleyin (Build) ve ST-Link V2 üzerinden kartınıza yükleyin (Run).
